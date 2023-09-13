@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+  .search-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	text-align: center;
+    overflow: hidden;
+    border: 1px solid #797979;
+	height: 2.2em;
+	margin: 0 5%;
+    border-radius: 25px;
+	padding-top: 1%;
+	background-color: #efefef;
+}
+
+.search-form form {
+    display: flex;
+    align-items: center;
+}
+.search-form input {
+    width: 180px;
+    height: 2.5em;
+    padding: 5px 15px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+	background-color: #efefef;
+}
+
+.search-form input::placeholder{
+    color: #767d83;
+}
+
+.search-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 2.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button::after {
+    width: 50%;
+    height: 50%;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%20%3Cpath%20d%3D%22M23.7%2020.8%2019%2016.1c-.2-.2-.5-.3-.8-.3h-.8c1.3-1.7%202-3.7%202-6C19.5%204.4%2015.1%200%209.7%200S0%204.4%200%209.7s4.4%209.7%209.7%209.7c2.3%200%204.3-.8%206-2v.8c0%20.3.1.6.3.8l4.7%204.7c.4.4%201.2.4%201.6%200l1.3-1.3c.5-.5.5-1.2.1-1.6zm-14-5.1c-3.3%200-6-2.7-6-6s2.7-6%206-6%206%202.7%206%206-2.6%206-6%206z%22%20fill%3D%22%23767d83%22%3E%3C%2Fpath%3E%20%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    content: '';
+}
+.search-form select {
+    width: 180px;
+    height: 2.5em;
+    padding: 5px 15px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+	color: rgb(107, 107, 107);
+	background-color: #efefef;
+}
+
+.btn-to-index {
+    color: #5f5f5f;
+	font-size: 16px;
+    background: #e7e7e7;
+    padding: 8px 16px;
+    border: #797979 solid;
+    box-shadow: 0 5px 0 #797979 ;
+    border-radius: 5px;
+    display: inline-block;
+    transition: .3s;
+  }
+
+.btn-to-index:hover {
+    transform: translateY(5px);
+	cursor: pointer;
+    box-shadow: 0 0 0 #333;
+}
+
+div.header {
+	background-color: rgb(255, 255, 255);
+	color: rgb(36, 36, 36);
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	display: flex;
+	padding-top: 1%;
+	height: 8%;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+	
+}
+div.header p {
+	/* text-align: center; */
+	color: rgb(35, 35, 35);
+	width: 6em;
+	height: 4em;
+	margin-top: 0;
+	margin-left: 1%;
+}
+
+.inputform {
+	margin: 0 auto;
+	width: 55%;
+	text-align: center;
+	background-color: #efefef;
+	padding: 3%;
+}
+.input-text{
+    resize: none;
+    height: 200px;
+	width: 40%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 25px;
+    background: #ffffff;
+    color: #4d4d4d;
+    font-size: 1em;
+    line-height: 1.5;
+	margin: 0.5% auto;
+	position: relative;
+  }
+.input-text::placeholder {
+    color: #999;
+    position: absolute;
+    top: 3%;
+}
+.input-text:focus {
+    padding-top: 1%;
+}
+.input-content {
+    width: 40%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 25px;
+    background: #ffffff;
+    color: #4d4d4d;
+    font-size: 1em;
+    line-height: 1.5;
+	margin: 0.5% auto;
+}
+
+.input-content::placeholder {
+    color: #999;
+}
+.a_music {
+	margin: 1%;
+	width: 25%;
+	border: #999 dotted;
+	border-radius: 10%;
+	padding: 1%;
+    color: #414141;
+}
+.name-band {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e7e7e7;
+}
+.song-name {
+    margin: 1% 1%;
+}
+
+.band-name {
+    margin: 1% 1%;
+}
+.jenre-name {
+    border-bottom: thick double rgba(131, 131, 131, 0.6);
+    width: 25%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.sh-de-btn {
+	display: flex;
+	justify-content: space-around;
+    margin: 2%;
+    margin-bottom: 0;
+}
+div.form1 {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 4%;
+	justify-content: center;
+}
+div.footer {
+	color: lightskyblue;
+	margin: 4em 0 0;
+	padding: 5px;
+	border-top: 1px solid;
+	text-align: right;
+	font-size: x-small;
+}
